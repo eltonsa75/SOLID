@@ -1,0 +1,16 @@
+{
+    "name": "elton/app_carrinho_compras",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Elton",
+            "email": "eltonsa75@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\" : "src/"
+        }
+    }
+}
