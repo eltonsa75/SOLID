@@ -1,0 +1,15 @@
+{
+    "name": "elton/app_etl",
+    "authors": [
+        {
+            "name": "Elton Andrade",
+            "email": "eltonsa75@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "src\\" : "src/"
+        }
+    }
+}
