@@ -5,7 +5,7 @@ namespace src;
 
 class Sms implements ImensagemToken {
     public function enviar(): void {
-        echo 'E-mail: Seu token é 555-333';
+        echo 'Sms: Seu token é 888-222';
     }
 }
 
