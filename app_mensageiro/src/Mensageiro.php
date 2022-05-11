@@ -19,7 +19,8 @@ class Mensageiro {
 
     public function enviarToken(): void {
        $classe = '\src\\'. ucfirst($this->getCanal());
-
+        echo $classe;
+        echo'<br>';
        $obj = new $classe;
        $obj->enviar();
     }
